@@ -87,6 +87,14 @@ screenshots：
 
 ![image](https://github.com/somonus/react-native-echarts/blob/master/example/demoAndroid.png)
 
+#### Notice
+安装后echarts不显示，但是在模拟器中是显示的，也是从网上找的
+
+复制文件tpl.html（路径： node_modules\native-echarts\src\components\Echarts）至android\app\src\main\assets目录下
+
+有时候main下如果没有assets文件夹，则需要自己建一个
+
+
 ## License
 
 native-echarts is released under the MIT license.
